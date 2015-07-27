@@ -1,4 +1,4 @@
-module Omniauth
+module OmniAuth
   module Locus
     MAJOR = 0
     MINOR = 1

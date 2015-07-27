@@ -12,9 +12,10 @@ end
 require 'rake'
 
 require 'jeweler'
+require './lib/omniauth-locus/version'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.version = Omniauth::Locus::STRING
+  gem.version = OmniAuth::Locus::STRING
   gem.name = "omniauth-locus"
   gem.homepage = "http://github.com/dphaener/omniauth-locus"
   gem.license = "MIT"
