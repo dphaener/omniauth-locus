@@ -24,7 +24,7 @@ $ gem install omniauth-locus
 
 ## Usage
 
-With Sinatra
+### With Sinatra
 
 ```ruby
 use OmniAuth::Builder do
@@ -32,7 +32,7 @@ use OmniAuth::Builder do
 end
 ```
 
-With Rails
+### With Rails
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
