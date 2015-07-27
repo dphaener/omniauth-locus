@@ -14,11 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
+  gem.version = Omniauth::Locus::STRING
   gem.name = "omniauth-locus"
   gem.homepage = "http://github.com/dphaener/omniauth-locus"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{OmniAuth strategy for Locus API}
+  gem.description = %Q{OmniAuth strategy for Locus API}
   gem.email = "dphaener@gmail.com"
   gem.authors = ["dphaener"]
   # dependencies defined in Gemfile
